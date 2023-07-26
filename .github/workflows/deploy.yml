@@ -58,7 +58,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MYSECRET }}
         with:
           # Git domain (default github.com)
-          domain: fantp.com
+          domain: github.com
           # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
 #          repo: $GITHUB_TOKEN
           # Git branch where assets will be deployed
