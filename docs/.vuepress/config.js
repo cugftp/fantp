@@ -1,12 +1,12 @@
 // const codePreview = require('./plugins/vuepress-plugin-code-previews')
 const { formatDate } = require('./utils/utils')
 module.exports = {
-  title: 'XXX BLOG',
-  description: '这算是描述吧！！！',
-  base: '/blog/', // 相对路径，读取相对路径下的静态文件 - github仓库名称
+  title: '欢迎来到我的世界',
+  description: 'Hello world!!!',
+  base: '/fantp/', // 相对路径，读取相对路径下的静态文件 - github仓库名称
   theme: 'vdoing',
   head: [
-    ['link', { rel: 'icon', href: '/blog/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/fantp/favicon.ico' }],
     ['script', {}, `
       var _hmt = _hmt || [];
       (function() {
@@ -27,7 +27,7 @@ module.exports = {
         { text: 'Google', link: 'www.google.cn' }
       ]
       },
-      { text: 'Github', link: 'https://github.com' }
+      { text: 'Github', link: 'https://cugftp.github.io/fantp' }
     ],
     sidebar: 'structuring'
   },
