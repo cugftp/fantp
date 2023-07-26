@@ -71,9 +71,9 @@ jobs:
           build_dir: docs/.vuepress/dist
           # Whether to treat build_dir as an absolute path
           # The committer name and email address
-          committer: 'blog<xxx@qq.com>'
+          committer: 'fantp<cugftp@foxmail.com>'
           # The author name and email address
-          author: 'blog<xxx@qq.com>'
+          author: 'fantp<cugftp@foxmail.com>'
           absolute_build_dir: false
           # If enabled, the content of symbolic links will be copied
           follow_symlinks: false
